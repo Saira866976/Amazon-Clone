@@ -1,0 +1,324 @@
+/* Mobile First */
+@media only screen and (min-width: 200px) and (max-width: 567px) {
+    
+    
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: #0f1111; /* Ensure visibility */
+    }
+    
+    .nav-logo {
+        width: 50%; /* Adjust width to fit on small screens */
+        max-width: 150px; /* Limit maximum width for better visibility */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 3px; /* Space below the logo */
+    }
+    
+    .logo {
+        display: block; /* Ensure logo is displayed */
+        width: 100%; /* Full width of the nav-logo container */
+        height: 30px; /* Maintain aspect ratio */
+    }
+    
+    .nav-address {
+        width: 50%;
+        text-align: center;
+        color: #fff; /* Ensure text is visible */
+    }
+    .fa-solid{
+        font-size: 10px;
+    }
+    .add-first {
+        /* margin-right: 4.5px; */
+        font-size: 9px;
+        color: #fff; /* Ensure text is visible */
+    }
+    .add-sec{
+       
+        font-size: 9px;
+    }
+    
+    .nav-search {
+        display: flex;
+        width: 400px;
+        height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #f3f3f3;
+        border-radius: 1px;
+        margin-right: 5px;
+    }
+    
+    select#all {
+        border-top-left-radius: 1px;
+        border-bottom-left-radius: 1px;
+        border: none;
+        border-color: #f3f3f3;
+        width: 25%;
+        height: 20px;
+        text-align: center;
+        font-size: 7px;
+      
+    }
+    
+    input#search {
+        /* flex: 1; */
+        border: none;
+        padding: 0 5px;
+        font-size: 8px;
+        width: 60px;
+    }
+    
+    .search-icon {
+        width: 15px;
+        background-color: #f3f3f3;
+        text-align: center;
+        /* line-height: 10px; */
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        font-size: 10px;
+    }
+    .nav-signin{
+        width: 150px;
+    }
+    .nav-signin span{
+        font-size: 8px;
+    }
+    
+    .nav-sec {
+        width: 100%;
+        font-size: 7px;
+        text-align: center;
+    }
+    .nav-cart{
+        font-size: 8px;
+    }
+    .nav-cart i{
+        font-size: 10px;
+    }
+    .nav-return{
+        font-size: 7px;
+    }
+    .panel {
+        flex-direction: row;
+        text-align: center;
+    }
+    .panel-all{
+        display: flex;
+        font-size: 0.5rem;
+        margin-bottom: 9px;
+        margin-left: 10px;
+    }
+    .all-icon{
+        /* padding-left:10px; */
+        font-size: 6px;
+    }
+    .panel-option {
+        width: 100%;
+        font-size: 0.5rem;
+        margin-bottom: 10px;
+    }
+    .panel-deals{
+        font-size: .6rem;
+    }
+    .hero-section {
+        height: 150px; /* Ensure consistency */
+        background-size: cover;
+        /* other styles */
+    }
+    .hero-massage{
+      
+        height: 30px;
+        font-size: 0.6rem;
+        width: 85%;
+        margin-bottom: 35px;
+    }
+    .shopping-center {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    
+    .foot-panel {
+        font-size: 0.75rem;
+        text-align: center;
+        height: 30px;
+    }
+    .panel-sec{
+        display: flex;
+        justify-content: space-around;
+        font-size: 10px;
+        width: 100%;
+        height: 200px;
+        padding-top: 20px;
+    }
+    
+    .sec{
+        width: 50%;
+        height: 100px;
+ 
+    }
+    ul{
+        margin: 10px;
+        padding: 0px;
+    }
+    .sec a,p{
+        font-size: 7px;
+        /* line-height: 5px; */
+    }
+    
+    .foot-panel4 {
+        height: 50px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        font-size: 10px;
+        
+    }
+    .copyright,.pages{
+        font-size: 10px;
+    }
+}
+
+
+/* Tablets */
+@media only screen and (min-width: 567px) and (max-width: 992px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    .nav-search {
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 300px;
+        flex-direction: row;
+    }
+    
+    .nav-search select#all {
+        width: auto;
+        flex: 1;
+    }
+    
+    .nav-search input#search {
+        flex: 3;
+    }
+    
+    .search-icon {
+        flex: 1;
+    }
+    
+    .panel {
+        padding-left: 3%;
+        padding-right: 3%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .shoping-center {
+        flex-wrap: wrap;
+    }
+    
+    .box {
+        width: 45%;
+        margin: 10px;
+    }
+    
+    .hero-section {
+        height: 300px;
+    }
+    
+    .hero-massage {
+        font-size: 0.8rem;
+    }
+    
+    .foot-panel {
+        font-size: 0.8rem;
+    }
+    
+    .panel-sec {
+        flex-direction: row;
+    }
+    
+    .foot-panel4 {
+        text-align: left;
+        padding: 20px;
+    }
+}
+
+/* Desktops */
+@media only screen and (min-width: 1025px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px 20px;
+    }
+    
+    .nav-search {
+        width: 620px;
+        flex-direction: row;
+    }
+    
+    .nav-search select#all {
+        width: auto;
+    }
+    
+    .nav-search input#search {
+        flex: 1;
+    }
+    
+    .search-icon {
+        flex: 0;
+    }
+    
+    .panel {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .shoping-center {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .box {
+        width: 23%;
+        margin: 10px;
+    }
+    
+    .hero-section {
+        height: 400px;
+    }
+    
+    .hero-massage {
+        font-size: 0.85rem;
+    }
+    
+    .foot-panel {
+        font-size: 0.85rem;
+    }
+    
+    .panel-sec {
+        flex-direction: row;
+    }
+    
+    .foot-panel4 {
+        text-align: center;
+    }
+}
